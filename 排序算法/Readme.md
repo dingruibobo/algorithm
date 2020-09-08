@@ -16,6 +16,18 @@ function toString1(arr) {
 	}
 	return retstr;
 }
+
+// 测试
+
+let arr = [];
+for (let i = 0; i < 10; i++) {
+	arr.push(Math.floor(Math.random() * 100) + 1)
+}
+console.log("原始:\n", toString1(arr))
+// 调用排序方法
+// bubbleSort(arr)
+//selectionSort(arr)
+console.log("排序后:\n", toString1(arr))
 ```
 
 ## 1、冒泡排序
@@ -36,7 +48,22 @@ function bubbleSort(arr) {
 ```
 ## 2、选择排序
 选择排序从数组的开头开始，将第一个元素和其他元 素进行比较。检查完所有元素后，最小的元素会被放到数组的第一个位置，然后算法会从 第二个位置继续。这个过程一直进行，当进行到数组的倒数第二个位置时，所有的数据便 完成了排序。
-
+```
+// 升序
+function selectionSort(arr) {
+	let len = arr.length;
+	for(let i = 0; i < len-2; i++) {
+		let minIndex = i
+		for(let j = i+1; j < len-1; j++) {
+			if(arr[minIndex] > arr[j]) {
+				minIndex = j
+			}
+		}
+		console.log(111, i, minIndex)
+		swap(arr, i, minIndex)
+	}
+}
+```
 
 
 
