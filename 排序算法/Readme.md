@@ -65,6 +65,22 @@ function selectionSort(arr) {
 	}
 }
 ```
+## 3、插入排序
+插入排序有两个循环。外循环将数组元素挨个移动，而内循环则对外循环中选中的元素及 它后面的那个元素进行比较。如果外循环中选中的元素比内循环中选中的元素小，那么数 组元素会向右移动，为内循环中的这个元素腾出位置
+```
+function insertionSort(arr) {
+	let temp, inner;
+	for(let outer = 1; outer < arr.length; outer++) {
+		temp = arr[outer];
+		inner = outer
+		while(inner>0 && (arr[inner-1] >= temp)) {
+			arr[inner] = arr[--inner]
+		}
+		arr[inner] = temp
+	}
+}
+
+```
 
 
 
