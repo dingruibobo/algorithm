@@ -82,9 +82,58 @@ function insertionSort(arr) {
 
 ```
 
-
-
-
+**总结 速度：插入 > 选择 > 冒泡**
+## 4、归并排序
+基本思想：先递归的拆分数组，再合并数组
+（1）将一个数组拆成A、B两个小组，两个小组继续拆，直到每个小组只有一个元素为止。</br>
+（2）按照拆分过程逐步合并小组，由于各小组初始只有一个元素，可以看做小组内部是有序的，合并小组可以被看做是合并两个有序数组的过程。</br>
+（3）对左右两个小数列重复第二步，直至各区间只有1个数。</br>
+下面对数组【42,20,17,13,28,14,23,15】进行归并排序，模拟排序过程如下：</br>
+　　第一步：拆分数组，一共需要拆分三次（logN）；</br>
+　　　　第一次拆成【42,20,17,13】，【28,14,23,15】，</br>
+　　　　第二次拆成【42,20】，【17,13】，【28,14】，【23,15】，、</br>
+　　　　第三次拆成【42】，【20】，【17】，【13】，【28】，【14】，【23】，【15】；</br>
+　　第二步：逐步归并数组，采用合并两个有序数组的方法，每一步其算法复杂度基本接近于O(N)</br>
+　　　　第一次归并为【20,42】，【13,17】，【14,28】，【15,23】</br>
+　　　　第二次归并为【13,17,20,42】，【14,15,23,28】，</br>
+　　　　第三次归并为【13, 14, 15, 17, 20, 23, 28, 42】</br>
+递归代码实现
+```
+// 合并两个有序数组
+function mergeArr(a, b) {
+	let tempArr = [];
+	let aLen = a && a.length;
+	let blen = b && b.length;
+	let i = 0
+	let j = 0;
+	while(i < aLen && j < blen) {
+		if(a[i] < b[j]) {
+			tempArr.push(a[i++])
+		} else {
+			tempArr.push(b[j++])
+		}
+	}
+	while(i < aLen) {
+		tempArr.push(a[i++])
+	}
+	while(j < blen) {
+		tempArr.push(b[j++])
+	}
+	return tempArr;
+}
+// 归并
+function mergeSort(arr) {
+	if(arr.length == 1) {
+		return arr
+	}
+	
+	let min = Math.floor(arr.length/2);
+	let leftArr = arr.slice(0, min);
+	let rightArr = arr.slice(min)
+	return mergeArr(mergeSort(leftArr), mergeSort(rightArr))
+}
+```
+参考链接：https://www.cnblogs.com/CassieHouse/p/9561262.html
 
 
 
