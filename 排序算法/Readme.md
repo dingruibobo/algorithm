@@ -134,6 +134,42 @@ function mergeSort(arr) {
 }
 ```
 参考链接：https://www.cnblogs.com/CassieHouse/p/9561262.html
+## 5、快速排序
+快速排序是处理大数据集最快的排序算法之一。它是一种分而治之的算法，通过递归的方 式将数据依次分解为包含较小元素和较大元素的不同子序列。该算法不断重复这个步骤直 到所有数据都是有序的。</br>
+这个算法首先要在列表中选择一个元素作为基准值（pivot）。数据排序围绕基准值进行， 将列表中小于基准值的元素移到数组的底部，将大于基准值的元素移到数组的顶部。
+```
+function quickSort(arr, begin, end) {
+	if(begin >= end) return
+	let left = begin;
+	let right = end;
+	let povit = arr[left];  // 基准
+	let temp;
+	while(left < right) {
+		while(arr[right] >= povit && left < right) {
+			right--
+		}
+		while(arr[left] <= povit && left < right) {
+			left++
+		}
+		// 交换左右指针数据
+		temp = arr[left];
+		arr[left] = arr[right];
+		arr[right] = temp;
+	}
+	
+	[arr[begin], arr[left]] = [arr[left], arr[begin]]
+	
+	quickSort(arr, begin, left-1)
+	quickSort(arr, left+1, end)
+}
+// 测试
+let arr = [];
+for (let i = 0; i < 10; i++) {
+	arr.push(Math.floor(Math.random() * 100) + 1)
+}
+quickSort(arr, 0, arr.length-1)
+console.log(arr)
+```
 
 
 
