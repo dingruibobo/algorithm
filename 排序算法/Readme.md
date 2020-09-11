@@ -223,6 +223,27 @@ for (let i = 0; i < 10; i++) {
 quickSort(arr, 0, arr.length-1)
 console.log(arr)
 ```
+
+
+### 测试上面几种排序（在排列10000个数字时花费的时间）
+```
+let nums = []
+for (let i = 0; i < 10000; i++) {
+	nums.push(Math.floor(Math.random() * 1000) + 1)
+}
+var startTime = new Date().getTime()
+// shellSort(nums)     			    // 30 毫秒
+// quickSort(nums, 0, nums.length-1)	       //  25  毫秒
+// mergeSort(nums)				// 45 毫秒
+// bubbleSort(nums)     			// 660 毫秒
+// selectionSort(nums)				// 210 毫秒
+// insertionSort(nums)				// 125 毫秒
+var endTime = new Date().getTime()
+var elapsed = endTime - startTime;
+console.log(" 消耗的时间为：" + elapsed +" 毫秒。");
+```
+
+
 </br></br>
 参考链接：https://www.cnblogs.com/siegaii/p/10744645.html  </br>
 https://segmentfault.com/a/1190000015488549
