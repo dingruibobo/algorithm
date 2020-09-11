@@ -223,7 +223,8 @@ for (let i = 0; i < 10; i++) {
 quickSort(arr, 0, arr.length-1)
 console.log(arr)
 ```
-参考链接：https://www.cnblogs.com/siegaii/p/10744645.html
+</br></br>
+参考链接：https://www.cnblogs.com/siegaii/p/10744645.html  </br>
 https://segmentfault.com/a/1190000015488549
 
 
