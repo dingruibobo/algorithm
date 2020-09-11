@@ -1,7 +1,7 @@
 "# algorithm" 
 数据结构与算法</br></br>
 对《数据结构与算法JavaScript》描述的总结和遇到一些算法题~~ </br></br>
-数组：https://github.com/dingruibobo/algorithm/blob/master/%E6%95%B0%E7%BB%84.md</br></br>
+[数组](https://github.com/dingruibobo/algorithm/blob/master/%E6%95%B0%E7%BB%84.md</br></br>)
 列表：https://github.com/dingruibobo/algorithm/blob/master/%E5%88%97%E8%A1%A8.md</br></br>
 栈：https://github.com/dingruibobo/algorithm/blob/master/%E6%A0%88.md</br></br>
 队列：https://github.com/dingruibobo/algorithm/blob/master/%E9%98%9F%E5%88%97.md</br></br>
