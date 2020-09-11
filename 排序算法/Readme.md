@@ -1,3 +1,4 @@
+## 准备工作
 我们先写一些方法用于交换数组元素和字符串输出
 ```
 function swap(arr, index1, index2) {
