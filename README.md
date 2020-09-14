@@ -13,3 +13,5 @@
 [排序算法](https://github.com/dingruibobo/algorithm/tree/master/%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95)</br>
 [贪心算法](https://github.com/dingruibobo/algorithm/tree/master/%E8%B4%AA%E5%BF%83%E7%AE%97%E6%B3%95)</br>
 [动态规划](https://github.com/dingruibobo/algorithm)</br>
+- [斐波那契数列](https://github.com/dingruibobo/algorithm/blob/master/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/fib.js)
+- [最长公共子串](https://github.com/dingruibobo/algorithm/blob/master/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/lcs.js)
