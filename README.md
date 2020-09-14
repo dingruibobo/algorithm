@@ -11,3 +11,5 @@
 [集合](https://github.com/dingruibobo/algorithm/blob/master/%E9%9B%86%E5%90%88.md)</br>
 [二叉树](https://github.com/dingruibobo/algorithm/blob/master/%E4%BA%8C%E5%8F%89%E6%A0%91.md)</br>
 [排序算法](https://github.com/dingruibobo/algorithm/tree/master/%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95)</br>
+[贪心算法](https://github.com/dingruibobo/algorithm/tree/master/%E8%B4%AA%E5%BF%83%E7%AE%97%E6%B3%95)</br>
+[动态规划](https://github.com/dingruibobo/algorithm)</br>
