@@ -1,5 +1,3 @@
-// 1 1 2 3 5 8 13 21 34...
-
 // 递归
 function recurFib(n) {
 	if(n == 1 || n == 2) {
@@ -22,9 +20,9 @@ function dtghFib(n) {
 	}
 	return arr[n-1]
 }
-console.log(dtghFib(7))
+console.log(dtghFib(1))
 
-// 非递归-动态规划-不用定义临时数组arr
+// 非递归-动态规划-不用定力临时数组arr
 function dtghFib1(n) {
 	let before1 = 1;
 	let before2 = 1;
@@ -37,3 +35,4 @@ function dtghFib1(n) {
 	return rsu;
 }
 console.log(dtghFib1(9))
+
