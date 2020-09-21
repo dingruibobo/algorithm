@@ -4,6 +4,9 @@
 - [数组](https://github.com/dingruibobo/algorithm/blob/master/%E6%95%B0%E7%BB%84.md)</br>
 - [列表](https://github.com/dingruibobo/algorithm/blob/master/%E5%88%97%E8%A1%A8.md)</br>
 - [栈](https://github.com/dingruibobo/algorithm/blob/master/%E6%A0%88.md)</br>
+  - [数制间的相互转化](https://github.com/dingruibobo/algorithm/blob/master/%E6%A0%88.md#21-%E6%95%B0%E5%88%B6%E9%97%B4%E7%9A%84%E7%9B%B8%E4%BA%92%E8%BD%AC%E5%8C%96)
+  - [回文]https://github.com/dingruibobo/algorithm/blob/master/%E6%A0%88.md#22-%E5%9B%9E%E6%96%87)
+  - [判断是否是有效括号](https://github.com/dingruibobo/algorithm/blob/master/%E6%A0%88.md#24-%E5%88%A4%E6%96%AD%E6%98%AF%E5%90%A6%E6%98%AF%E6%9C%89%E6%95%88%E6%8B%AC%E5%8F%B7)
 - [队列](https://github.com/dingruibobo/algorithm/blob/master/%E9%98%9F%E5%88%97.md)</br>
 - [列表](https://github.com/dingruibobo/algorithm/blob/master/%E9%93%BE%E8%A1%A8.md)</br>
 - [链表](https://github.com/dingruibobo/algorithm/blob/master/%E9%93%BE%E8%A1%A8.md)</br>
