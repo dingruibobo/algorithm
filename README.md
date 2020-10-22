@@ -27,10 +27,10 @@
   - [最长公共子串](https://github.com/dingruibobo/algorithm/blob/master/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/lcs.js)
   - [背包问题](https://github.com/dingruibobo/algorithm/blob/master/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/knapsack.js)
   
-- [leetCode刷题](https://leetcode-cn.com/)
+- [leetCode刷题](https://leetcode-cn.com/) </br>
 关于刷题的一些心得：
 1. 5-10分钟审题，思考
 2. 若有思路，写出来（不管有多么垃圾）；没思路，立马看题解（不要纠结，死磕，需要可以训练，看题解培养思维）
 3. 默认背诵，熟练
-4. 最终达到的效果：闭卷写
+4. 最终达到的效果：闭卷写  </br>
 注意：善于阅读别人的代码，理解思路转化为自己的思路，比较各种实现方式的优缺点，时间复杂度，空间复杂度；忌讳没做出来的题只做一遍，反复品味，默写；
