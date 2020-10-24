@@ -26,6 +26,7 @@
   [斐波那契数列](https://github.com/dingruibobo/algorithm/blob/master/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/fib.js)&ensp;
   [最长公共子串](https://github.com/dingruibobo/algorithm/blob/master/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/lcs.js)&ensp;
   [背包问题](https://github.com/dingruibobo/algorithm/blob/master/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/knapsack.js)
+  [爬楼梯](https://leetcode-cn.com/problems/climbing-stairs/)
   
 - [leetCode刷题](https://leetcode-cn.com/) </br></br>
 关于刷题的一些心得：
