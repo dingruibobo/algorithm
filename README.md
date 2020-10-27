@@ -10,11 +10,13 @@
 - [队列](https://github.com/dingruibobo/algorithm/blob/master/%E9%98%9F%E5%88%97.md)</br>
 - [列表](https://github.com/dingruibobo/algorithm/blob/master/%E9%93%BE%E8%A1%A8.md)</br>
 - [链表](https://github.com/dingruibobo/algorithm/blob/master/%E9%93%BE%E8%A1%A8.md)</br>
-[环形链表，寻找环的入口处](https://leetcode-cn.com/problems/linked-list-cycle/)
+[环形链表-寻找环的入口处](https://leetcode-cn.com/problems/linked-list-cycle/)&ensp;
 [反转链表](https://leetcode-cn.com/problems/reverse-linked-list/)
 - [散列](https://github.com/dingruibobo/algorithm/blob/master/%E6%95%A3%E5%88%97.md)</br>
 - [集合](https://github.com/dingruibobo/algorithm/blob/master/%E9%9B%86%E5%90%88.md)</br>
 - [二叉树](https://github.com/dingruibobo/algorithm/blob/master/%E4%BA%8C%E5%8F%89%E6%A0%91.md)</br>
+[前序遍历](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/)&ensp;
+[中序遍历](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/)
 - [排序算法](https://github.com/dingruibobo/algorithm/tree/master/%E6%8E%92%E5%BA%8F)</br>
   [基数排序](https://github.com/dingruibobo/algorithm/blob/master/%E9%98%9F%E5%88%97.md#2%E4%BD%BF%E7%94%A8%E9%98%9F%E5%88%97%E5%AF%B9%E6%95%B0%E7%BB%84%E8%BF%9B%E8%A1%8C%E6%8E%92%E5%BA%8F)&ensp;
   [冒泡排序](https://github.com/dingruibobo/algorithm/tree/master/%E6%8E%92%E5%BA%8F#1%E5%86%92%E6%B3%A1%E6%8E%92%E5%BA%8F)&ensp;
