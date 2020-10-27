@@ -10,6 +10,8 @@
 - [队列](https://github.com/dingruibobo/algorithm/blob/master/%E9%98%9F%E5%88%97.md)</br>
 - [列表](https://github.com/dingruibobo/algorithm/blob/master/%E9%93%BE%E8%A1%A8.md)</br>
 - [链表](https://github.com/dingruibobo/algorithm/blob/master/%E9%93%BE%E8%A1%A8.md)</br>
+[环形链表，寻找环的入口处](https://leetcode-cn.com/problems/linked-list-cycle/)
+[反转链表](https://leetcode-cn.com/problems/reverse-linked-list/)
 - [散列](https://github.com/dingruibobo/algorithm/blob/master/%E6%95%A3%E5%88%97.md)</br>
 - [集合](https://github.com/dingruibobo/algorithm/blob/master/%E9%9B%86%E5%90%88.md)</br>
 - [二叉树](https://github.com/dingruibobo/algorithm/blob/master/%E4%BA%8C%E5%8F%89%E6%A0%91.md)</br>
